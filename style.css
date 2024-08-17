@@ -1,0 +1,404 @@
+:root {
+    --cor_um: #fff;
+    --cor_dois: #f1f3f7;
+    --cor_tres:  #f6f6f6;
+    --cor_quatro: #a8a4a4;
+    --cor_cinco: #233032;
+    --cor_seis: #2f86d6;
+    --cor_sete: rgba(47, 134, 214, 1);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    color: var(--cor_seis);
+    font-size: 28px;
+}
+
+/* CABEÇALHO */
+
+header {
+    width: 100%;
+    height: 129px;
+    padding: 35px 0;
+    position: relative;
+    background-color: #fff;
+}
+
+header img {
+    width:70px;
+    position: absolute;
+    top: 30px;
+    left: 250px;
+}
+
+.marca {
+    position: absolute;
+    top: 28px;
+    left: 330px;
+}
+
+.marca h1 {
+    font-size: 32px;
+    color: #000;
+}
+
+.marca p { 
+    font-size: 16px;
+    color: var(--cor_seis);
+}
+
+header nav {
+    position: absolute;
+    top: 51px;
+    right: 200px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+/* BANNER */
+
+.banner {
+    width: 100%;
+    height: 87vh;
+    background-color: var(--cor_seis);
+    padding: 50px 0;
+}
+
+.div_banner {
+    width: 1024px;
+    height: 430px;
+    margin: auto;
+    position: relative;
+}
+
+.txt_banner {
+    width: 470px;
+    position: absolute;
+    top: 23%;
+    left: 0px;
+}
+
+.banner img {
+    width: 512px;
+    position:  absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.txt_banner p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.txt_banner h2 {
+    font-size: 28px;
+    color: #fff;
+    margin: 15px 0;
+}
+
+/* ANUNCIOS */
+
+.anuncio_um, .anuncio_dois {
+    width: 100%;
+    height: 120px;
+    position: relative;
+}
+
+.anuncio_um {
+    background-color: var(--cor_cinco);
+}
+
+.anuncio_dois {
+    background-color: var(--cor_seis);
+}
+
+.div_anun {
+    width: 600px;
+    position: absolute;
+    top: 30px;
+    left: 250px;
+}
+
+.div_anun h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.div_anun p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.botao_um, .botao_dois {
+    width: 210px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 35px;
+    right: 200px;
+}
+
+.botao_um {
+    background-color: var(--cor_seis);
+}
+
+.botao_dois {
+    background-color: var(--cor_cinco);
+}
+
+.botao_um img, .botao_dois img {
+    margin: -2px 5px;
+}
+
+.botao_um a, .botao_dois a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* INFORMAÇÕES */
+
+.informacoes {
+    width: 100%;
+    height: 400px;
+}
+
+.informacoes h2 {
+    width: 900px;
+    margin: 50px auto;
+    font-size: 28px;
+    text-align: center;
+}
+
+.inf {
+    width: 1024px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inf img {
+    width: 70px;
+    display: block; 
+    margin: auto;
+    padding: 5px 0;
+}
+
+.inf h3 {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.inf p {
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* PLANOS*/ 
+
+.planos {
+    width: 100%;
+    background-color: var(--cor_tres); 
+    
+}
+
+.div_tabela {
+    width: 1024px;
+    margin: auto;
+    padding: 50px;
+}
+.div_tabela table {
+    box-shadow: 0px 0px 15px 2px #a8a4a4;
+}
+
+.div_tabela h2 {    
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.div_tabela img {
+    height: 90px;
+}
+
+table thead tr th {
+    width: 256px;
+    padding: 5px 10px;
+}
+
+table thead tr th p {
+    font-size: 13px;
+    color: var(--cor_quatro);
+    width: 150px;
+    margin: auto;
+}
+
+table thead tr th h3 {
+    font-size: 18px;
+    color: #000;
+}
+
+table tbody tr td {
+    width: 256px;
+    padding: 10px 10px;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.linhaPar {
+    background-color: var(--cor_um);
+    font-size: 16px;
+}
+
+.linhaImpar {
+    background-color: var(--cor_dois);
+    font-size: 16px;
+}
+
+/* RODAPÉ */
+
+footer {
+    width: 100%;
+    padding-top
+    : 30px;
+}
+
+
+
+.div_logo {
+    position: relative;
+    width: 320px;
+    margin: auto;
+}
+
+.div_logo  img {
+    height: 70px;   
+}
+
+.div_slogan {
+    position: absolute;
+    top: 0px;
+    left: 25%;
+}
+
+
+.div_slogan h1 {
+    font-size: 32px;
+    color: #000;
+}
+
+.div_slogan p { 
+    font-size: 16px;
+    color: var(--cor_seis);
+}
+
+.dados {
+    text-align: center;
+    padding: 40px;
+    font-size: 16px;
+    font-weight: 200;
+    
+}
+
+.dev {
+    font-size: 12px;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor_tres);
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dev span {
+    font-size: 12px;
+}
+
+/* Pg TABELA DE PREÇOS */
+
+.topo_pg2 {
+    background-color: var(--cor_seis);
+}
+
+.topo_pg2 .marca p {
+    color: #fff;
+}
+
+.topo_pg2 nav a {
+    color: #fff;
+}
+
+/*Tabela de planos*/
+
+table {
+    width: 1024px;
+    margin: 50px auto;
+}
+
+thead tr td {
+    text-align: center;
+    background-color: var(--cor_tres);
+    padding: 15px 0;
+    width: 17%;
+}
+
+.sem_destaq {
+    background-color: #fff;
+    width: 30%;
+}
+
+table p {
+    color: var(--cor_quatro);
+    font-size: 12px;
+}
+
+table h2 {
+    font-size: 35px;
+}
+
+tbody .item {
+    background-color: var(--cor_tres);
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 14px;
+}
+
+tbody .descricao {
+    font-size: 14px;
+    font-weight: normal;
+}
+tbody :hover {
+    background-color: var(--cor_tres);
+}
+
+/* RODAPE*/
+
+.pag2 {
+    background-color: var(--cor_seis) ;
+}
+
+.pag2 p {
+    color: #fff;
+}
+
+.pag2 .dev p {
+    color: #000;
+}
